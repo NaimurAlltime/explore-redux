@@ -1,11 +1,10 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <div>
-        <h2 className="text-3xl font-semibold">Explore Redux</h2>
-      </div>
+      <Home></Home>
     </>
   );
 }
